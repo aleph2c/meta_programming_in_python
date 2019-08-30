@@ -1,9 +1,28 @@
+# Resources:
+# http://tree-sitter.github.io/tree-sitter/playground  
+# https://www.youtube.com/watch?v=Jes3bD6P0To
+# pip install tree-sitter
+# git clone https://github.com/tree-sitter/tree-sitter-python vendor/tree-sitter-python
+
+# If you successfully reviewed this file you will be able to:
+# 1) describe what tree-sitter is
+# 2) name it's author and where he works and why he build tree-sitter
+# 3) know how to set it up in python
+# 4) know how to build get and build a language library
+# 5) create a basic parser
+# 6) parse some code
+# 7) inspect a tree
+# 8) walk a syntax tree
+# 9) edit a syntax tree and feed it back to tree-sitter
+
 # Tree sitter example
 from tree_sitter import Language, Parser
+
 import pprint
 def pp(item):
   pprint.pprint(item)
 
+# this imports the language
 Language.build_library(
   # store the library in the `build` directory
   'build/my-languages.so',
@@ -36,8 +55,7 @@ assert function_name_node.type == 'identifier'
 assert function_name_node.start_point == (1, 4)
 assert function_name_node.end_point == (1, 7)
 
-pp( root_node.sexp()) 
-
+pp(root_node.sexp()) 
 
 cursor = tree.walk()
 assert cursor.node.type == 'module'
