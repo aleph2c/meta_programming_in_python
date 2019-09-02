@@ -1,0 +1,4 @@
+[[plan|back]]
+= Subgoals =
+* [ ] subgoal 1	[[subgoal_1|link]]
+* [ ] subgoal 2	[[subgoal_2|link]] 

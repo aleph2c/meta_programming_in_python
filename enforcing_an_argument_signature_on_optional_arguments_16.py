@@ -65,6 +65,23 @@ def make_sig(*names):
   parms = [Parameter(name, Parameter.POSITIONAL_OR_KEYWORD) for name in names]
   return Signature(parms)
 
+# start experiment
+# trying to understand "make_sig(*clsdict.get('_fields', []))"
+# 1) 'get' turns the dictionary into a list, defaulting the list to []
+# 2) the * in front, causes the dictionary to splat into a set of distinct
+# arguements given to the function _dict_function
+# 3) the * in front of the make_sig, de-splats the set of distinct arguments
+# back into a list
+def _dict_function(*_dict_as_list):
+  print(*_dict_as_list)
+
+_dict = {'_fields':['bob', 'mary'], 'something_else':['whatever']}
+print('here')
+print(_dict.get('_fields', []))
+_dict_function(*_dict.get('_fields', []))
+print('here')
+# finished experiment
+
 class StructureMeta(type):
   def __new__(cls, clsname, bases, clsdict):
     clsdict['__signature__'] = make_sig(*clsdict.get('_fields', []))
@@ -75,6 +92,8 @@ class Structure(metaclass=StructureMeta):
   def __init__(self, *args, **kwargs):
     bound_values = self.__signature__.bind(*args, **kwargs)
     for name, value in bound_values.arguments.items():
+      # name is _fields key
+      # value is the value provided in the instantiation
       setattr(self, name, value)
 
 # Example
@@ -85,3 +104,5 @@ class Point(Structure):
   _fields = ['x', 'y']
 
 print(inspect.signature(Stock))
+
+google_stock = Stock('GOOG', 120, 123.00)

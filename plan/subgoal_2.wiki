@@ -1,0 +1,48 @@
+[[subgoals.plan|back]]
+*Subgoal 2*
+= Observer ([[local:/home/scott/.vimrc/ooda.pdf|diagram]]) = 
+== Evidence ([[evidence.subgoal_2|evidence]]) ==
+
+  *What defines Success?:* ([[subgoals.subgoal_2|subgoals]])
+    what is your primary goal
+
+  *What is the problem?*
+    what seems to be the problem?
+  
+= Orient =
+  *Symptoms:* [[symptoms.subgoal_2|symptoms]]
+
+== Questions ==
+  *Questions for Subgoal 2: >= 5*
+    Can you think of anyway to speed up your feedback cycle?
+    Do you have enough information?
+    Is your information organized?
+    Can you reproduce the problem?
+    Can you simplify your test?
+    Do you have something to baseline from?
+    What recently changed?
+    What don't you know that you need to know?
+  
+  *Assumptions*
+
+= Decide =
+  [[#Questions]]
+  *Research Needed For?:*
+    
+
+  [[#Questions]]
+  *Idea/Hypotheses for Subgoal 2: >=5*
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+
+  *Chosen Research-Goal/Hypothesis*
+    
+
+== Plan ([[plan.subgoal_2|plan]]) ==
+
+= Act =
+  
+

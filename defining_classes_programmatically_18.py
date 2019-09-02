@@ -22,6 +22,7 @@ cls_dict = {
 import types
 
 Stock = types.new_class('Stock', (), {}, lambda ns: ns.update(cls_dict))
+# this is needed for pickle
 Stock.__module__ = __name__
 s = Stock('ACME', 50, 91.1)
 print(s)
@@ -49,6 +50,11 @@ import sys
 
 def named_tuple(classname, fieldnames):
   # Populate a dictionary of field property accessors
+  # Re: operator.itemgetter(n)
+  # Return a callable object that fetches item from its operand using the
+  # operand's __getitem__() (__getitem__(a, b)return value of a at index b)
+  # method.  If multiple items are specified, returns a tuple of lookup values.
+  #   f = itemgetter(2), the call f(r) returns r[2]
   cls_dict = { name: property(operator.itemgetter(n))
     for n, name in enumerate(fieldnames) }
   # Make a __new__ function and add to the class dict

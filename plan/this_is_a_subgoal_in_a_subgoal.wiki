@@ -1,0 +1,48 @@
+[[subgoals.subgoal_1|back]]
+*This Is A Subgoal In A Subgoal*
+= Observer ([[local:/home/scott/.vimrc/ooda.pdf|diagram]]) = 
+== Evidence ([[evidence.this_is_a_subgoal_in_a_subgoal|evidence]]) ==
+
+  *What defines Success?:* ([[subgoals.this_is_a_subgoal_in_a_subgoal|subgoals]])
+    what is your primary goal
+
+  *What is the problem?*
+    what seems to be the problem?
+  
+= Orient =
+  *Symptoms:* [[symptoms.this_is_a_subgoal_in_a_subgoal|symptoms]]
+
+== Questions ==
+  *Questions for This Is A Subgoal In A Subgoal: >= 5*
+    Can you think of anyway to speed up your feedback cycle?
+    Do you have enough information?
+    Is your information organized?
+    Can you reproduce the problem?
+    Can you simplify your test?
+    Do you have something to baseline from?
+    What recently changed?
+    What don't you know that you need to know?
+  
+  *Assumptions*
+
+= Decide =
+  [[#Questions]]
+  *Research Needed For?:*
+    
+
+  [[#Questions]]
+  *Idea/Hypotheses for This Is A Subgoal In A Subgoal: >=5*
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+
+  *Chosen Research-Goal/Hypothesis*
+    
+
+== Plan ([[plan.this_is_a_subgoal_in_a_subgoal|plan]]) ==
+
+= Act =
+  
+

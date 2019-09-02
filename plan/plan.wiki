@@ -1,0 +1,50 @@
+*working with Jessica, making a diagram*
+= Observer ([[local:/home/scott/.vimrc/ooda.pdf|diagram]]) = 
+== Evidence ([[evidence.plan|evidence]]) ==
+  facts
+
+  *What defines Success?:* ([[subgoals.plan|subgoals]])
+    what is your primary goal
+
+  *What is the problem?*
+    what seems to be the problem?
+  
+= Orient =
+  *Symptoms:* [[symptoms.plan|symptoms]]
+  Statements about behavior, informed with evidence in the context of the
+  problem statement (but are usually wrong)
+
+== Questions ==
+  *Questions for working with Jessica, making a diagram: >= 5*
+    Can you think of anyway to speed up your feedback cycle?
+    Do you have enough information?
+    Is your information organized?
+    Can you reproduce the problem?
+    Can you simplify your test?
+    Do you have something to baseline from?
+    What recently changed?
+    What don't you know that you need to know?
+  
+  *Assumptions*
+
+= Decide =
+  [[#Questions]]
+  *Research Needed For?:*
+    
+
+  [[#Questions]]
+  *Idea/Hypotheses for working with Jessica, making a diagram: >=5*
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+
+  *Chosen Research-Goal/Hypothesis*
+    
+
+== Plan ([[plan.plan|plan]]) ==
+
+= Act =
+  
+

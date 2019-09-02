@@ -1,0 +1,50 @@
+[[subgoals.plan|back]]
+*how to map flow onto OODA*
+= Observer ([[local:/home/scott/.vimrc/ooda.pdf|diagram]]) = 
+== Evidence ([[evidence.subgoal_1|evidence]]) ==
+  blah blah
+  success!
+
+  *What defines Success?:* ([[subgoals.subgoal_1|subgoals]])
+    what is your primary goal
+
+  *What is the problem?*
+    what seems to be the problem?
+  
+= Orient =
+  *Symptoms:* [[symptoms.subgoal_1|symptoms]]
+
+== Questions ==
+  *Questions for how to map flow onto OODA: >= 5*
+    Can you think of anyway to speed up your feedback cycle?
+    Do you have enough information?
+    Is your information organized?
+    Can you reproduce the problem?
+    Can you simplify your test?
+    Do you have something to baseline from?
+    What recently changed?
+    What don't you know that you need to know?
+  
+  *Assumptions*
+
+= Decide =
+  [[#Questions]]
+  *Research Needed For?:*
+    
+
+  [[#Questions]]
+  *Idea/Hypotheses for how to map flow onto OODA: >=5*
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+  * [ ] 
+
+  *Chosen Research-Goal/Hypothesis*
+    
+
+== Plan ([[plan.subgoal_1|plan]]) ==
+
+= Act =
+  
+
